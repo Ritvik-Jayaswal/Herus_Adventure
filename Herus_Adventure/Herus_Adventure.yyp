@@ -9,8 +9,9 @@
     {"id":{"name":"obj_vase","path":"objects/obj_vase/obj_vase.yy",},"order":4,},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":0,},
     {"id":{"name":"obj_LevelGen","path":"objects/obj_LevelGen/obj_LevelGen.yy",},"order":1,},
+    {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":1,},
     {"id":{"name":"heru_damage","path":"scripts/heru_damage/heru_damage.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -26,7 +27,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -54,6 +56,8 @@
     {"CopyToMask":153157610357391598,"filePath":"datafiles/level1Layout","resourceVersion":"1.0","name":"lvlLayout1.txt","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/roomLayout","resourceVersion":"1.0","name":"room1.txt","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/level3Layout","resourceVersion":"1.0","name":"lvlLayout1.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/level2Layout","resourceVersion":"1.0","name":"lvlLayout1.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/level2Layout","resourceVersion":"1.0","name":"lvlLayout2.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.1.542",
