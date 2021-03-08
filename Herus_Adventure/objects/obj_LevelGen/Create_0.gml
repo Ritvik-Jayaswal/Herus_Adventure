@@ -3,8 +3,9 @@
 
 //Level Layout Generation
 //Randomly pull a level layout
+levelFile = "level1Layout/lvlLayout" + string(irandom_range(1,4)) + ".txt";
 //Read it and store in the room array for easy reference
-file = file_text_open_read("level1Layout/lvlLayout1.txt");
+file = file_text_open_read(levelFile);
 levelArray[0,0] = 0;
 lineCT = -1;
 while(!file_text_eof(file)){
@@ -20,8 +21,6 @@ while(!file_text_eof(file)){
 	}
 }
 file_text_close(file);
-show_message(array_length(levelArray));
-show_message(array_length(levelArray[0]));
 
 
 //Room Layout for each room
@@ -34,7 +33,13 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 			curLayer = "Room" + string(levelI*levelJ + levelJ);
 		
 			//Randomly select the room layout, read it, generate it
-			file = file_text_open_read("roomLayout/room1.txt");
+			roomFile = "roomLayout/room" + string(irandom_range(2,5)) + ".txt";
+			//unless that room is the spawn room or boss room
+			if(levelArray[levelI][levelJ] == "S" || levelArray[levelI][levelJ] == "B"){
+				roomFile = "roomLayout/room1.txt";
+			}
+			
+			file = file_text_open_read(roomFile);
 			for(i = 0; i < 11; i++){
 				curline = file_text_readln(file);
 				for(j = 0; j < 21; j++){
@@ -67,7 +72,8 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 							continue;
 						}
 					}
-		
+					
+					//Spawn each object in it's correct location
 					curChar = string_char_at(curline, j+1);
 					switch(curChar){
 						case "W": 
@@ -81,6 +87,14 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 						case "P":
 							//Might be removed depending on how we move player between levels
 							//instance_create_layer(newX, newY, "Player", obj_player);
+							break;
+							
+						case "S":
+							instance_create_layer(newX, newY, curLayer, obj_statue);
+							break;
+							
+						case "H":
+							instance_create_layer(newX, newY, curLayer, obj_hole);
 							break;
 				
 						default:

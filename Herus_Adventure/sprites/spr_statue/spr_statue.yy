@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 4,
-  "bbox_right": 54,
-  "bbox_top": 5,
-  "bbox_bottom": 62,
+  "bbox_left": 1,
+  "bbox_right": 59,
+  "bbox_top": 1,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dcc1b838-61c0-46e8-820e-dd10c6e9010f","path":"sprites/spr_vase/spr_vase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dcc1b838-61c0-46e8-820e-dd10c6e9010f","path":"sprites/spr_vase/spr_vase.yy",},"LayerId":{"name":"db3e8644-69b2-458c-b1c0-8dc8d5117eff","path":"sprites/spr_vase/spr_vase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_vase","path":"sprites/spr_vase/spr_vase.yy",},"resourceVersion":"1.0","name":"dcc1b838-61c0-46e8-820e-dd10c6e9010f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"229e0e28-5d11-4060-b8b7-0defe58cf0f8","path":"sprites/spr_statue/spr_statue.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"229e0e28-5d11-4060-b8b7-0defe58cf0f8","path":"sprites/spr_statue/spr_statue.yy",},"LayerId":{"name":"3aaa70fc-2416-4e7b-b68d-00cadd5bc572","path":"sprites/spr_statue/spr_statue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_statue","path":"sprites/spr_statue/spr_statue.yy",},"resourceVersion":"1.0","name":"229e0e28-5d11-4060-b8b7-0defe58cf0f8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_vase","path":"sprites/spr_vase/spr_vase.yy",},
+    "spriteId": {"name":"spr_statue","path":"sprites/spr_statue/spr_statue.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a23183b2-9c47-47c9-8d1b-f07e4ebea2f2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dcc1b838-61c0-46e8-820e-dd10c6e9010f","path":"sprites/spr_vase/spr_vase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"510c916a-b88f-4ca0-9dad-f29a55f08772","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"229e0e28-5d11-4060-b8b7-0defe58cf0f8","path":"sprites/spr_statue/spr_statue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_vase","path":"sprites/spr_vase/spr_vase.yy",},
+    "parent": {"name":"spr_statue","path":"sprites/spr_statue/spr_statue.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_vase",
+    "name": "spr_statue",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"db3e8644-69b2-458c-b1c0-8dc8d5117eff","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3aaa70fc-2416-4e7b-b68d-00cadd5bc572","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_vase",
+  "name": "spr_statue",
   "tags": [],
   "resourceType": "GMSprite",
 }

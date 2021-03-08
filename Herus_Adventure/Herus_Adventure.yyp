@@ -1,16 +1,20 @@
 {
   "resources": [
     {"id":{"name":"heru","path":"objects/heru/heru.yy",},"order":0,},
+    {"id":{"name":"spr_hole","path":"sprites/spr_hole/spr_hole.yy",},"order":5,},
     {"id":{"name":"spr_vase","path":"sprites/spr_vase/spr_vase.yy",},"order":3,},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":3,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":2,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":2,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":1,},
+    {"id":{"name":"obj_statue","path":"objects/obj_statue/obj_statue.yy",},"order":5,},
     {"id":{"name":"obj_vase","path":"objects/obj_vase/obj_vase.yy",},"order":4,},
+    {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},"order":6,},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":0,},
+    {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"order":7,},
     {"id":{"name":"obj_LevelGen","path":"objects/obj_LevelGen/obj_LevelGen.yy",},"order":1,},
-    {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":1,},
     {"id":{"name":"heru_damage","path":"scripts/heru_damage/heru_damage.yy",},"order":0,},
+    {"id":{"name":"spr_statue","path":"sprites/spr_statue/spr_statue.yy",},"order":4,},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},"order":0,},
   ],
   "Options": [
@@ -28,7 +32,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
-    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -58,6 +61,13 @@
     {"CopyToMask":-1,"filePath":"datafiles/level3Layout","resourceVersion":"1.0","name":"lvlLayout1.txt","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/level2Layout","resourceVersion":"1.0","name":"lvlLayout1.txt","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/level2Layout","resourceVersion":"1.0","name":"lvlLayout2.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/level1Layout","resourceVersion":"1.0","name":"lvlLayout2.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/level1Layout","resourceVersion":"1.0","name":"lvlLayout3.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/level1Layout","resourceVersion":"1.0","name":"lvlLayout4.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/roomLayout","resourceVersion":"1.0","name":"room2.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/roomLayout","resourceVersion":"1.0","name":"room3.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/roomLayout","resourceVersion":"1.0","name":"room4.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/roomLayout","resourceVersion":"1.0","name":"room5.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.1.542",

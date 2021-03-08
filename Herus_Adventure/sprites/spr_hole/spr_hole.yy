@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 4,
-  "bbox_right": 54,
+  "bbox_left": 2,
+  "bbox_right": 58,
   "bbox_top": 5,
-  "bbox_bottom": 62,
+  "bbox_bottom": 60,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dcc1b838-61c0-46e8-820e-dd10c6e9010f","path":"sprites/spr_vase/spr_vase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dcc1b838-61c0-46e8-820e-dd10c6e9010f","path":"sprites/spr_vase/spr_vase.yy",},"LayerId":{"name":"db3e8644-69b2-458c-b1c0-8dc8d5117eff","path":"sprites/spr_vase/spr_vase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_vase","path":"sprites/spr_vase/spr_vase.yy",},"resourceVersion":"1.0","name":"dcc1b838-61c0-46e8-820e-dd10c6e9010f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0ae67d28-2b99-45c7-99ff-31e1dd5ec3e5","path":"sprites/spr_hole/spr_hole.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0ae67d28-2b99-45c7-99ff-31e1dd5ec3e5","path":"sprites/spr_hole/spr_hole.yy",},"LayerId":{"name":"8228fe32-9988-420b-a50d-030fd38a3982","path":"sprites/spr_hole/spr_hole.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_hole","path":"sprites/spr_hole/spr_hole.yy",},"resourceVersion":"1.0","name":"0ae67d28-2b99-45c7-99ff-31e1dd5ec3e5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_vase","path":"sprites/spr_vase/spr_vase.yy",},
+    "spriteId": {"name":"spr_hole","path":"sprites/spr_hole/spr_hole.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a23183b2-9c47-47c9-8d1b-f07e4ebea2f2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dcc1b838-61c0-46e8-820e-dd10c6e9010f","path":"sprites/spr_vase/spr_vase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d17cc169-2140-4338-b2dc-8ae4ab9994d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0ae67d28-2b99-45c7-99ff-31e1dd5ec3e5","path":"sprites/spr_hole/spr_hole.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_vase","path":"sprites/spr_vase/spr_vase.yy",},
+    "parent": {"name":"spr_hole","path":"sprites/spr_hole/spr_hole.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_vase",
+    "name": "spr_hole",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"db3e8644-69b2-458c-b1c0-8dc8d5117eff","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8228fe32-9988-420b-a50d-030fd38a3982","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_vase",
+  "name": "spr_hole",
   "tags": [],
   "resourceType": "GMSprite",
 }
