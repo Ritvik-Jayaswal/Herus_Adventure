@@ -4,6 +4,7 @@
 //Level Layout Generation
 //Randomly pull a level layout
 levelFile = "level1Layout/lvlLayout" + string(irandom_range(1,4)) + ".txt";
+show_debug_message(levelFile)
 //Read it and store in the room array for easy reference
 file = file_text_open_read(levelFile);
 levelArray[0,0] = 0;
@@ -35,7 +36,7 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 			//Randomly select the room layout, read it, generate it
 			roomFile = "roomLayout/room" + string(irandom_range(2,5)) + ".txt";
 			//unless that room is the spawn room or boss room
-			if(levelArray[levelI][levelJ] == "S" || levelArray[levelI][levelJ] == "B"){
+			if(levelArray[levelI][levelJ] == "S" /*|| levelArray[levelI][levelJ] == "B"*/){
 				roomFile = "roomLayout/room1.txt";
 			}
 			
@@ -94,7 +95,7 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 							break;
 							
 						case "H":
-							instance_create_layer(newX, newY, curLayer, obj_hole);
+							instance_create_layer(newX, newY, curLayer, obj_griffin);
 							break;
 				
 						default:

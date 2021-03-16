@@ -6,6 +6,7 @@
     {"id":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"order":10,},
     {"id":{"name":"spr_hole","path":"sprites/spr_hole/spr_hole.yy",},"order":5,},
     {"id":{"name":"spr_vase","path":"sprites/spr_vase/spr_vase.yy",},"order":3,},
+    {"id":{"name":"obj_griffin","path":"objects/obj_griffin/obj_griffin.yy",},"order":11,},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":3,},
     {"id":{"name":"spr_king","path":"sprites/spr_king/spr_king.yy",},"order":10,},
     {"id":{"name":"obj_skeleton","path":"objects/obj_skeleton/obj_skeleton.yy",},"order":9,},
