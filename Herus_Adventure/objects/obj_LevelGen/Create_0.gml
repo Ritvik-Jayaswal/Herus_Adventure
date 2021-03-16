@@ -38,6 +38,7 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 			//unless that room is the spawn room or boss room
 			if(levelArray[levelI][levelJ] == "S" /*|| levelArray[levelI][levelJ] == "B"*/){
 				roomFile = "roomLayout/room1.txt";
+				camera_set_view_pos(view_camera[0], roomX, roomY);
 			}
 			
 			file = file_text_open_read(roomFile);
@@ -51,25 +52,44 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 					//Checks to see if a room to the North exists
 					if(i == 0 && j == 10 && levelI != 0){
 						if(levelArray[levelI - 1][levelJ] != "-"){
-							instance_create_layer(newX, newY, curLayer, obj_door);
+							door = instance_create_layer(newX, newY, curLayer, obj_door);
+							with(door){
+								nextRoomX = other.roomX;
+								nextRoomY = other.roomY - 704;
+								
+							}
 							continue;
 						}
 					}//Checks to see if a room to the West exists
 					else if(i == 5 && j == 0 && levelJ != 0){
 						if(levelArray[levelI][levelJ - 1] != "-"){
-							instance_create_layer(newX, newY, curLayer, obj_door);
+							door = instance_create_layer(newX, newY, curLayer, obj_door);
+							with(door){
+								nextRoomX = other.roomX - 1344;
+								nextRoomY = other.roomY;
+								image_angle = 90;
+							}
 							continue;
 						}
 					}//Checks to see if a room to the East exists
 					else if(i == 5 && j == 20 && levelJ != (array_length(levelArray[0]) - 1)){
 						if(levelArray[levelI][levelJ + 1] != "-"){
-							instance_create_layer(newX, newY, curLayer, obj_door);
+							door = instance_create_layer(newX, newY, curLayer, obj_door);
+							with(door){
+								nextRoomX = other.roomX + 1344;
+								nextRoomY = other.roomY;
+								image_angle = 90;
+							}	
 							continue;
 						}
 					}//Checks to see if a room to the South exists
 					else if(i == 10 && j == 10 && levelI != (array_length(levelArray) - 1)){
 						if(levelArray[levelI + 1][levelJ] != "-"){
-							instance_create_layer(newX, newY, curLayer, obj_door);
+							door = instance_create_layer(newX, newY, curLayer, obj_door);
+							with(door){
+								nextRoomX = other.roomX;
+								nextRoomY = other.roomY + 704;
+							}
 							continue;
 						}
 					}
