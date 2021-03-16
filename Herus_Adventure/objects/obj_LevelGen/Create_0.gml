@@ -77,11 +77,11 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 					curChar = string_char_at(curline, j+1);
 					switch(curChar){
 						case "W": 
-							instance_create_layer(newX, newY, curLayer, obj_wall);
+							instance_create_layer(newX, newY, curLayer, obj_dirt);
 							break;
 			
 						case "V":
-							instance_create_layer(newX, newY, curLayer, obj_vase);
+							instance_create_layer(newX, newY, curLayer, obj_snake);
 							break;
 			
 						case "P":
@@ -90,7 +90,7 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 							break;
 							
 						case "S":
-							instance_create_layer(newX, newY, curLayer, obj_statue);
+							instance_create_layer(newX, newY, curLayer, obj_skeleton);
 							break;
 							
 						case "H":
