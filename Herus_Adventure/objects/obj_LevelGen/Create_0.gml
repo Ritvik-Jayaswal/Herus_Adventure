@@ -86,7 +86,7 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 			
 						case "P":
 							//Might be removed depending on how we move player between levels
-							//instance_create_layer(newX, newY, "Player", obj_player);
+							instance_create_layer(newX, newY, curLayer, obj_Heru);
 							break;
 							
 						case "S":
