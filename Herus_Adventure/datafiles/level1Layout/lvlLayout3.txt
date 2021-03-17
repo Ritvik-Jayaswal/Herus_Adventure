@@ -1,2 +1,3 @@
-TRB
+RRB
 S--
+RRR

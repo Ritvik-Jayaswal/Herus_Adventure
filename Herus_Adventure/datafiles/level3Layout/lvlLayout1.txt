@@ -1,4 +1,5 @@
---B-
--RR-
--RSR
---RR
+--B--
+-RR-R
+-RSRR
+--RR-
+-RRR-

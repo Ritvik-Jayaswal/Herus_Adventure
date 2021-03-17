@@ -1,11 +1,11 @@
 WWWWWWWWWWWWWWWWWWWWW
-W-S---------------S-W
+W-S--E------------S-W
 W-------------------W
 W--------HHH--------W
 W-------HHHHH-------W
 W------HHHHHHH------W
-W-------HHHHH-------W
+W-------HHHHHE------W
 W--------HHH--------W
-W-------------------W
-WVV---------------VVW
+W--E----------------W
+WVV------------E--VVW
 WWWWWWWWWWWWWWWWWWWWW

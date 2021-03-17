@@ -1,3 +1,4 @@
-B-R
-RSR
-R--
+B-RR
+RSRR
+R---
+RR--

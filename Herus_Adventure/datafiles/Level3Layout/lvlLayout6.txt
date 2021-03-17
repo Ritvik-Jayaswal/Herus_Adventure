@@ -1,0 +1,5 @@
+--RRS
+--R-R
+-B-RR
+RRRR-
+R----

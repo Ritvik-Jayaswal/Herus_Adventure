@@ -16,6 +16,11 @@ if(xDiff < 0){
 	y = y - 185;	
 }
 
+if(other.nextRoomBoss){
+	x = other.nextRoomX + 672;
+	y = other.nextRoomY + 550;
+}
+
 //Change camera location
 camera_set_view_pos(view_camera[0], other.nextRoomX, other.nextRoomY);
 

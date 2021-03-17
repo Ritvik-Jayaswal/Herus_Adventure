@@ -2,10 +2,10 @@ WWWWWWWWWWWWWWWWWWWWW
 W-S--S---------S--S-W
 W-------------------W
 W-------------------W
+W---------E---------W
 W-------------------W
 W-------------------W
-W-------------------W
-W-------------------W
-WHHHHHHHHHHHHHHHHHHHW
-WHHHHHHHHHHHHHHHHHHHW
+W---E-----------E---W
+WHHHHHHHH---HHHHHHHHW
+WHHHHHHHH---HHHHHHHHW
 WWWWWWWWWWWWWWWWWWWWW
