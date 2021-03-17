@@ -14,7 +14,7 @@ if(keyboard_check_pressed(ord("V"))){
 
 //Kill Boss
 if(keyboard_check_pressed(ord("B"))){
-	if(instance_exists(obj_bossProto)){
-		instance_destroy(obj_bossProto);
+	if(instance_exists(obj_king)){
+		instance_destroy(obj_king);
 	}
 }

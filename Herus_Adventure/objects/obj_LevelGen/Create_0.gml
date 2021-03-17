@@ -4,6 +4,9 @@
 //Level Layout Generation
 //Randomly pull a level layout
 levelFile = room_get_name(room) + "Layout/lvlLayout" + string(irandom_range(1,10)) + ".txt";
+if(room_get_name(room) == "Level4"){
+	levelFile = "Level4Layout/lvlLayout.txt";	
+}
 show_debug_message(levelFile)
 //Read it and store in the room array for easy reference
 file = file_text_open_read(levelFile);
@@ -35,8 +38,8 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 			
 			//Set enemy type for the room (in case there are enemies)
 			//This means only one type of enemy per room
-			enemyType = irandom_range(0,2);
-			if(room_get_name(room) == "Level3"){
+			enemyType = irandom_range(1, string_char_at(room_get_name(room), 6));
+			if(string_char_at(room_get_name(room), 6) >= "3"){
 				walls = obj_stone;
 				doors = obj_doorStone;
 			}else{
@@ -132,8 +135,9 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 							break;
 			
 						case "P":
-							//Might be removed depending on how we move player between levels
-							instance_create_layer(newX, newY, curLayer, obj_Heru);
+							if(roomFile == "roomLayout/roomStart.txt" || (roomFile == "roomLayout/roomBoss.txt" && room_get_name(room) == "Level4")){
+								instance_create_layer(newX, newY, curLayer, obj_Heru);
+							}
 							break;
 							
 						case "S":
@@ -146,13 +150,13 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 						
 						case "E":
 							switch(enemyType){
-								case 0:
-									instance_create_layer(newX, newY, curLayer, obj_skeleton);
-									break;
 								case 1:
 									instance_create_layer(newX, newY, curLayer, obj_snake);
 									break;
 								case 2:
+									instance_create_layer(newX, newY, curLayer, obj_skeleton);
+									break;
+								case 3:
 									instance_create_layer(newX, newY, curLayer, obj_griffin);
 									break;
 								default:
@@ -161,7 +165,11 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 							break;
 							
 						case "B":
-							instance_create_layer(newX, newY, curLayer, obj_king);
+							if(room_get_name(room) != "Level4"){
+								instance_create_layer(newX, newY, curLayer, obj_stairs);
+							}else{
+								instance_create_layer(newX, newY, curLayer, obj_king);
+							}
 							break;
 							
 						default:
