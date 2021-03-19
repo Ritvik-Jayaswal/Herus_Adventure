@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_snake",
-    "path": "sprites/spr_snake/spr_snake.yy",
+    "name": "spr_arrow",
+    "path": "sprites/spr_arrow/spr_arrow.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_snake",
+  "name": "obj_arrow",
   "tags": [],
   "resourceType": "GMObject",
 }
