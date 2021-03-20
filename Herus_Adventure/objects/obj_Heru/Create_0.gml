@@ -7,6 +7,8 @@ enum PLAYER_STATE{
 	shooting,
 	hurt
 }
+nx = 0;
+ny = 0;
 level = 1;
 state = PLAYER_STATE.walking;
 global.gameover = false;
