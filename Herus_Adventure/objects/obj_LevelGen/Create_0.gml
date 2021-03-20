@@ -137,6 +137,7 @@ for(levelI = 0; levelI < array_length(levelArray); levelI++){
 						case "P":
 							if(roomFile == "roomLayout/roomStart.txt" || (roomFile == "roomLayout/roomBoss.txt" && room_get_name(room) == "Level4")){
 								//instance_create_layer(newX, newY, curLayer, obj_Heru);
+								// Added code for persistent object
 								obj_Heru.nx = newX; 
 								obj_Heru.ny = newY;
 								with(obj_Heru){

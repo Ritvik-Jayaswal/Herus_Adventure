@@ -3,7 +3,7 @@
     "name": "spr_snake",
     "path": "sprites/spr_snake/spr_snake.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -22,8 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_dirt","path":"objects/obj_dirt/obj_dirt.yy",},"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_vase","path":"objects/obj_vase/obj_vase.yy",},"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_statue","path":"objects/obj_statue/obj_statue.yy",},"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_doorDirt","path":"objects/obj_doorDirt/obj_doorDirt.yy",},"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hsp","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",

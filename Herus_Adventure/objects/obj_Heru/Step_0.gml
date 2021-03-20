@@ -26,4 +26,5 @@ if (state == PLAYER_STATE.hurt){
 
 if(hp <= 0){
 	global.gameover = true;
+	instance_destroy();
 }

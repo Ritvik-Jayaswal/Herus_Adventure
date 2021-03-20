@@ -30,6 +30,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_vase","path":"objects/obj_vase/obj_vase.yy",},"parent":{"name":"obj_Heru","path":"objects/obj_Heru/obj_Heru.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_skeleton","path":"objects/obj_skeleton/obj_skeleton.yy",},"parent":{"name":"obj_Heru","path":"objects/obj_Heru/obj_Heru.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_griffin","path":"objects/obj_griffin/obj_griffin.yy",},"parent":{"name":"obj_Heru","path":"objects/obj_Heru/obj_Heru.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"parent":{"name":"obj_Heru","path":"objects/obj_Heru/obj_Heru.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

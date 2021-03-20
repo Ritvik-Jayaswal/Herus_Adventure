@@ -3,7 +3,10 @@
 
 //Skip to next level
 if(keyboard_check_pressed(ord("N"))){
-	room_goto_next();	
+	room_goto_next();
+	with(obj_Heru){
+		level += 1;	
+	}
 }
 
 //View Entire Level
