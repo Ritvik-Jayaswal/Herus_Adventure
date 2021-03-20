@@ -5,7 +5,5 @@ if instance_exists(obj_Heru){
 	draw_text(16,32,"Level: " + string(obj_Heru.level));
 }
 if (global.gameover) {
-	camera_set_view_pos(view_camera[0], 0, 0);
-	camera_set_view_size(view_camera[0], room_width, room_height);
-	draw_text(room_width / 2, room_height / 2, "Game Over! Press R to restart.")
+	draw_text_color(view_hport[0]/2, view_wport[0]/2, "Game Over! Press R to restart.", c_black, c_black, c_black, c_black, false)
 }
