@@ -27,9 +27,10 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_vase","path":"objects/obj_vase/obj_vase.yy",},"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_statue","path":"objects/obj_statue/obj_statue.yy",},"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_doorDirt","path":"objects/obj_doorDirt/obj_doorDirt.yy",},"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_stone","path":"objects/obj_stone/obj_stone.yy",},"parent":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hsp","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"sp","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hp","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
