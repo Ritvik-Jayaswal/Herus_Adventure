@@ -5,6 +5,8 @@ image_yscale = .2;
 if instance_exists(obj_Heru){
 	direction = point_direction(x,y,obj_Heru.x,obj_Heru.y);
 }
+image_angle = direction;
+/*
 if (direction > 315 || direction < 45){
 	sprite_index = spr_arrow1;
 }
@@ -17,5 +19,5 @@ else if (direction > 135 && direction < 225){
 else{
 	sprite_index = spr_arrow4;
 }
-
+*/
 speed = 10;
