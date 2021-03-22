@@ -16,6 +16,7 @@
     {"id":{"name":"obj_griffin","path":"objects/obj_griffin/obj_griffin.yy",},"order":11,},
     {"id":{"name":"obj_doorDirt","path":"objects/obj_doorDirt/obj_doorDirt.yy",},"order":3,},
     {"id":{"name":"snd_playerDeath","path":"sounds/snd_playerDeath/snd_playerDeath.yy",},"order":1,},
+    {"id":{"name":"shd_hurt","path":"shaders/shd_hurt/shd_hurt.yy",},"order":0,},
     {"id":{"name":"Level4","path":"rooms/Level4/Level4.yy",},"order":3,},
     {"id":{"name":"spr_king","path":"sprites/spr_king/spr_king.yy",},"order":10,},
     {"id":{"name":"snd_snakeDamage","path":"sounds/snd_snakeDamage/snd_snakeDamage.yy",},"order":5,},
