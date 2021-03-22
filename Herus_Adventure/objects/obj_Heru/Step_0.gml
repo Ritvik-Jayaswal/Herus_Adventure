@@ -25,6 +25,13 @@ if (state == PLAYER_STATE.hurt){
 }
 
 if(hp <= 0){
+	audio_play_sound(snd_playerDeath,1,false);
 	global.gameover = true;
 	instance_destroy();
+}
+
+if(level == 4 && !atBoss){
+	audio_stop_sound(snd_mainMusic);
+	audio_play_sound(snd_tutMusic,1,true);
+	atBoss = true;
 }

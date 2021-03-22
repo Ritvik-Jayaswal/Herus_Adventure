@@ -3,6 +3,7 @@
 if (state != PLAYER_STATE.hurt) {
 	state = PLAYER_STATE.hurt;
 	obj_Heru.hp -= 20;
+	audio_play_sound(snd_playerDamage,1,false);
 }
 if (state == PLAYER_STATE.hurt) {
 	direction = point_direction(other.x,other.y,x,y);
