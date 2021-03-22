@@ -3,6 +3,7 @@
 if instance_exists(obj_Heru){
 	draw_healthbar(8,8,256,32,obj_Heru.hp,c_black,c_red,c_lime,0,true,true);
 	draw_text(16,32,"Level: " + string(obj_Heru.level));
+	draw_text(16,48,"Score: " + string(score));
 }
 if (global.gameover) {
 	draw_text_color(view_hport[0]/2, view_wport[0]/2, "Game Over! Press R to restart.", c_black, c_black, c_black, c_black, false)

@@ -33,6 +33,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"sp","path":"objects/obj_snake/obj_snake.yy",},"objectId":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"hp","path":"objects/obj_snake/obj_snake.yy",},"objectId":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"score_value","path":"objects/obj_snake/obj_snake.yy",},"objectId":{"name":"obj_snake","path":"objects/obj_snake/obj_snake.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
