@@ -1,9 +1,10 @@
 /// @description Start attack timelines
 // You can write your code in this editor
 timeline_running = false;
+path_end();
 newAttack = irandom_range(0,2);
 	
-switch(1){
+switch(newAttack){
 	case(0):
 		timeline_index = tml_bossCharge;
 		timeline_position = 0;
@@ -27,4 +28,4 @@ switch(1){
 	
 }
 
-show_message("start");
+state = BOSS_STATE.pathing;

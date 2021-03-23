@@ -28,6 +28,12 @@ if(instance_exists(obj_king)){
 			default:
 				break;
 		}
+		
+		if(speed > .01){
+			state = BOSS_STATE.pathing;
+		}else{
+			state = BOSS_STATE.waiting;		
+		}
 	}
 }
 

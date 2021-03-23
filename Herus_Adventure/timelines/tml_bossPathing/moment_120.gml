@@ -28,7 +28,7 @@ if(instance_exists(obj_king)){
 				break;
 		}
 		
-
+		state = BOSS_STATE.pathing;
 	}
 }
 
