@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"snd_playerDamage","path":"sounds/snd_playerDamage/snd_playerDamage.yy",},"order":0,},
+    {"id":{"name":"obj_playerArrow","path":"objects/obj_playerArrow/obj_playerArrow.yy",},"order":20,},
     {"id":{"name":"obj_Heru","path":"objects/obj_Heru/obj_Heru.yy",},"order":0,},
     {"id":{"name":"obj_stairs","path":"objects/obj_stairs/obj_stairs.yy",},"order":14,},
     {"id":{"name":"snd_tutDeath","path":"sounds/snd_tutDeath/snd_tutDeath.yy",},"order":6,},
@@ -34,10 +35,12 @@
     {"id":{"name":"spr_skeleton","path":"sprites/spr_skeleton/spr_skeleton.yy",},"order":8,},
     {"id":{"name":"spr_stone","path":"sprites/spr_stone/spr_stone.yy",},"order":13,},
     {"id":{"name":"spr_arrow2","path":"sprites/spr_arrow2/spr_arrow2.yy",},"order":17,},
+    {"id":{"name":"obj_bow","path":"objects/obj_bow/obj_bow.yy",},"order":19,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":2,},
     {"id":{"name":"spr_stairs","path":"sprites/spr_stairs/spr_stairs.yy",},"order":15,},
     {"id":{"name":"obj_king","path":"objects/obj_king/obj_king.yy",},"order":16,},
     {"id":{"name":"snd_tutMusic","path":"sounds/snd_tutMusic/snd_tutMusic.yy",},"order":8,},
+    {"id":{"name":"obj_skeleBow","path":"objects/obj_skeleBow/obj_skeleBow.yy",},"order":21,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":1,},
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":1,},
     {"id":{"name":"obj_statue","path":"objects/obj_statue/obj_statue.yy",},"order":5,},

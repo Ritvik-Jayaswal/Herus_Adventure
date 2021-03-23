@@ -11,7 +11,7 @@ enum BOSS_STATE{
 	projectile
 }
 
-
+timer = 20;
 state = BOSS_STATE.waiting;
 isHurt = false;
 alarm[0] = 45;

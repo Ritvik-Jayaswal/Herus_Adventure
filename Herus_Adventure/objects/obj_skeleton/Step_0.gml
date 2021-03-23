@@ -10,6 +10,8 @@ if (instance_exists(obj_Heru)){
 	}
 	if (state == ENEMY_STATE.aggro){
 		if (canShoot){
+			instance_create_layer(x,y,layer_get_id("Instances"),obj_skeleBow);
+			obj_skeleBow.skeleton = id;
 			instance_create_layer(x,y,layer_get_id("Instances"),obj_arrow);
 			alarm[1] = room_speed;
 			canShoot = false;

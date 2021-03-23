@@ -3,7 +3,7 @@ image_xscale = .2;
 image_yscale = .18;
 enum PLAYER_STATE{
 	walking,
-	slashing,
+	stabbing,
 	shooting,
 	hurt
 }
@@ -13,4 +13,5 @@ level = 1;
 state = PLAYER_STATE.walking;
 audio_play_sound(snd_mainMusic,1,true);
 atBoss = false;
+canShoot = true;
 global.gameover = false;
