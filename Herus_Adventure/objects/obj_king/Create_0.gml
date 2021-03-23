@@ -6,10 +6,12 @@ image_yscale = .5;
 health = hp;
 enum BOSS_STATE{
 	waiting,
-	charging,
+	charge,
 	pathing,
-	shooting,
-	hurt
+	projectile
 }
+
+
 state = BOSS_STATE.waiting;
+isHurt = false;
 alarm[0] = 45;
