@@ -7,7 +7,9 @@ with(other){
 		audio_play_sound(snd_skeletonDamage,1,false);
 	}
 	if (state == ENEMY_STATE.hurt){
-		direction = point_direction(obj_Heru.x,obj_Heru.y,x,y);
+		if instance_exists(obj_Heru){
+			direction = point_direction(obj_Heru.x,obj_Heru.y,x,y);
+		}
 		speed = 20;
 	}
 }
