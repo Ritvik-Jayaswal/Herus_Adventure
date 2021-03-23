@@ -23,7 +23,9 @@ if (state == PLAYER_STATE.hurt){
 		state = PLAYER_STATE.walking;
 	}
 }
-
+if (keyboard_check_pressed(ord("Z"))){
+		instance_create_layer(x,y,"Instances",obj_sword);
+}
 if(hp <= 0){
 	audio_play_sound(snd_playerDeath,1,false);
 	global.gameover = true;
