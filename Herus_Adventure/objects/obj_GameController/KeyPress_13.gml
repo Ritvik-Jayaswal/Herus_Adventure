@@ -1,6 +1,5 @@
-/// @description Start Game
+/// @description Start Game / Return to menu
 // You can write your code in this editor
-
 if(global.gamestate == GAME_STATE.mainmenu){
 	global.gamestate = GAME_STATE.playing;
 	
@@ -16,3 +15,4 @@ if(global.gamestate == GAME_STATE.mainmenu){
 	}
 	room_goto_next();
 }
+
