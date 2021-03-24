@@ -1,3 +1,7 @@
-/// @description End Game
+/// @description Change Game State
 // You can write your code in this editor
-game_end();
+
+global.gamestate = GAME_STATE.mainmenu;
+audio_stop_all();
+audio_play_sound(snd_mainMusic,1,true);
+room_goto(Menu);
