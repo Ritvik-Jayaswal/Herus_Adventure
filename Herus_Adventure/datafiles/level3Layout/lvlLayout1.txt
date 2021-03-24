@@ -2,4 +2,4 @@
 -RR-R
 -RSRR
 --RR-
--RRR-
+RRR--

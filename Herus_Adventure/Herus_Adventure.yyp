@@ -15,6 +15,7 @@
     {"id":{"name":"spr_hole","path":"sprites/spr_hole/spr_hole.yy",},"order":5,},
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"order":17,},
     {"id":{"name":"spr_vase","path":"sprites/spr_vase/spr_vase.yy",},"order":3,},
+    {"id":{"name":"spr_heruBack","path":"sprites/spr_heruBack/spr_heruBack.yy",},"order":24,},
     {"id":{"name":"obj_griffin","path":"objects/obj_griffin/obj_griffin.yy",},"order":11,},
     {"id":{"name":"obj_pschent","path":"objects/obj_pschent/obj_pschent.yy",},"order":22,},
     {"id":{"name":"obj_doorDirt","path":"objects/obj_doorDirt/obj_doorDirt.yy",},"order":3,},
