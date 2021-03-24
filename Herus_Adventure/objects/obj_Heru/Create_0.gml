@@ -11,7 +11,6 @@ nx = 0;
 ny = 0;
 level = 1;
 state = PLAYER_STATE.walking;
-audio_play_sound(snd_mainMusic,1,true);
 atBoss = false;
 canShoot = true;
 global.gameover = false;

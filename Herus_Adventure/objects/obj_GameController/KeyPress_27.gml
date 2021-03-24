@@ -4,5 +4,7 @@
 global.gamestate = GAME_STATE.mainmenu;
 alarm[0] = -1;
 if(room != Menu){
+	audio_stop_all();
+	audio_play_sound(snd_mainMusic,1,true);
 	room_goto(Menu);
 }
