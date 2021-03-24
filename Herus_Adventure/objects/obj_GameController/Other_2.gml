@@ -9,6 +9,8 @@ enum GAME_STATE{
 	blank,
 	mainmenu,
 	playing,
+	win,
+	lose,
 	newhighscore,
 	savehighscore,
 	highscore

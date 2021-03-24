@@ -16,3 +16,7 @@ if(global.gamestate == GAME_STATE.mainmenu){
 	room_goto_next();
 }
 
+if(global.gamestate == GAME_STATE.win){
+	global.gamestate = GAME_STATE.blank;
+}
+

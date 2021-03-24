@@ -14,6 +14,32 @@ if(global.gamestate == GAME_STATE.mainmenu){
 	draw_text(room_width / 2, 550, "Use ARROW KEYS to move, Use Z and X to attack");
 	draw_text(room_width / 2, 600, "Press S to view the current highscores");
 	draw_set_halign(fa_left);	
+}else if(global.gamestate == GAME_STATE.win){
+	
+	draw_set_valign(fa_middle);
+	draw_set_halign(fa_center);
+	draw_set_font(fnt_title);
+	draw_text_color(room_width / 2, room_height * 1 / 3, "You are now the Pharaoh!", c_black, c_black, c_black, c_black, 1);	
+		
+	
+	draw_text_color(room_width / 2, room_height * 2 / 3, "Press ENTER to view Highscores!", c_black, c_black, c_black, c_black, 1);			
+	
+	draw_set_valign(fa_top);
+	draw_set_halign(fa_left);
+	
+}else if(global.gamestate == GAME_STATE.lose){
+	
+	draw_set_valign(fa_middle);
+	draw_set_halign(fa_center);
+	draw_set_font(fnt_title);
+	draw_text_color(room_width / 2, room_height * 1 / 5, "You Died!", c_black, c_black, c_black, c_black, 1);	
+		
+	
+	draw_text_color(room_width / 2, room_height * 2 / 3, "Press ESC to go to the Main Menu", c_black, c_black, c_black, c_black, 1);			
+	
+	draw_set_valign(fa_top);
+	draw_set_halign(fa_left);
+	
 }else if(global.gamestate == GAME_STATE.newhighscore){
 	
 	draw_set_valign(fa_middle);
@@ -23,7 +49,7 @@ if(global.gamestate == GAME_STATE.mainmenu){
 	draw_text_color(room_width / 2, room_height * 7 / 13, initials, c_black, c_black, c_black, c_black, 1);	
 		
 	if(curInt == 4){
-		draw_text_color(room_width / 2, room_height * 2 / 3, "Press Enter to Confirm", c_black, c_black, c_black, c_black, 1);			
+		draw_text_color(room_width / 2, room_height * 2 / 3, "Press ENTER to Confirm", c_black, c_black, c_black, c_black, 1);			
 	}
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);

@@ -6,6 +6,18 @@ if(global.gamestate == GAME_STATE.mainmenu){
 		alarm[0] = 45;
 	}
 }
+if(global.gamestate == GAME_STATE.win){
+	if room != Victory{
+		room_goto(Victory);
+	}
+	
+}
+if(global.gamestate == GAME_STATE.lose){
+	if room != GameOver{
+		room_goto(GameOver);
+	}
+	
+}
 
 if(global.gamestate == GAME_STATE.blank){
 	newRank = -1;
