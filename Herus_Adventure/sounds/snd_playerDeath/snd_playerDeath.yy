@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.2,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_playerDeath.wav",
-  "duration": 1.723753,
+  "duration": 1.359172,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
