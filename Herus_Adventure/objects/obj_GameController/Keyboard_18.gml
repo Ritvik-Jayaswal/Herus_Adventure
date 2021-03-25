@@ -30,4 +30,19 @@ if(global.gamestate = GAME_STATE.playing){
 			instance_destroy(obj_king);
 		}
 	}
+	
+	//Go Fullscreen
+	if(keyboard_check_pressed(ord("F"))){
+		if !window_get_fullscreen(){
+			window_set_fullscreen(true);
+		}
+		else{
+			window_set_fullscreen(false);
+		}
+	}
+	
+	//End Game
+	if(keyboard_check_pressed(ord("E"))){
+		game_end();
+	}
 }
