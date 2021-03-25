@@ -1,0 +1,51 @@
+https://make8bitart.com/
+All art from this site created by Michael Halverson
+
+
+Grunt1 - Death Pain by tonsil5 (snd_playerDamage)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/tonsil5/sounds/416839/
+
+
+Egypt Music by theojt (snd_mainMusic)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/theojt/sounds/511198/
+
+
+Desert background music by Sunsai (snd_tutMusic)
+License: CC BY 3.0 (Attibution 3.0 Unported)
+https://freesound.org/people/Sunsai/sounds/415806/
+
+
+Voice_Adult_Male_DeathScream_03.wav by MrFossy (snd_playerDeath)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/MrFossy/sounds/547182/
+
+
+hissing snake sound effect by Garuda1982 (snd_snakeDamage)
+License: CC BY 3.0 (Attibution 3.0 Unported)
+https://freesound.org/people/Garuda1982/sounds/541656/
+
+
+Game die by josepharaoh99 (snd_enemyDeath)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/josepharaoh99/sounds/364929/
+
+
+Skeleton bones (game) by cribbler (snd_skeletonDamage)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/cribbler/sounds/381859/
+
+
+Goblin Growl by qubodup (snd_griffinDamage)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/qubodup/sounds/442817/
+
+
+Beast_death by Pyrocamancer (snd_tutDeath)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/Pyrocamancer/sounds/137036/
+
+
+Game Created using:
+GameMaker Studio 2
